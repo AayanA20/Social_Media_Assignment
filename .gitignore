@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vite production build
+dist/
+dist-ssr/
+*.local
+
+# Image uploads
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.log
